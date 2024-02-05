@@ -1,0 +1,1017 @@
+*
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#bdindex
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#contact
+{
+    background-color: skyblue;
+    
+}
+/* #contact::-webkit-scrollbar
+{
+    background-color: red;
+} */
+header
+{
+    text-align: center;
+    background-color: skyblue;
+    padding: 10px;
+    border-bottom-left-radius: 5px ;
+    border-bottom-right-radius: 5px ;
+}
+h1, h2
+{
+    /* margin: 0; */
+    color: white;
+}
+h1
+{
+    background-color: blue;
+    padding: 20px;
+}
+h2
+{
+    background-color: rgb(238, 67, 96);
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+main
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    /* justify-content: center; */
+    background-image: url('Images/labo2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    /* filter: blur(2px); */
+    height: 600px;
+}
+main section
+{
+    padding: 20px;
+    width: 80%;
+}
+section img
+{
+    object-fit: cover;
+}
+main p
+{
+    font-size: 23px;
+    /* font-weight: bold; */
+    background-color: rgba(255, 255, 255, 0.645);
+    padding:30px;
+    border-radius: 10px;
+    font-weight: 500;
+    max-height: 500px;
+    text-align: justify;
+}
+nav
+{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #fff;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+nav ul
+{
+    padding: 20px;
+    background-color: skyblue;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* column-gap: 0px; */
+    list-style: none;
+}
+.liens
+{
+   font-weight: bold; 
+   transition: all .3s;
+}
+.liens:hover
+{
+    background-color: rgb(238, 67, 96);
+    border-radius: 5px;
+    color: #fff;
+}
+
+nav a 
+{
+    padding: 10px;
+    text-decoration:none;
+    color: darkblue;
+    font-size: 18px;
+}
+nav img
+{
+    height: 100px;
+}
+.reveal{
+    opacity: 0;
+    transform: translateY(30px);
+}
+
+.reveal-visible{
+    opacity: 1;
+    transform: translateY(0);
+    transition: 1s cubic-bezier(.5, 0, 0, 1);
+}
+.don
+{
+    background-color: rgb(238, 67, 96);
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+}
+.don:hover, nav img:hover
+{
+    scale: 0.95;
+}
+.rose
+{
+    background-color:rgb(238, 67, 96);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:20px ;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    /* padding: 20px; */
+}
+.intro
+{
+    background-color: skyblue;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 800px;
+}
+.intro h3
+{
+    text-align: center;
+    color:rgba(0, 9, 139, 0.962);
+    margin: 10px;
+}
+.intro p
+{
+    width: 80%;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    text-align: justify;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.intro ul
+{
+    width: 80%;
+    text-align: justify;
+    list-style:outside;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    overflow: scroll;
+}
+.intro ul li
+{
+   margin: 10px;
+   font-size: calc(.5rem + 1vw);
+}
+.equipe, .equipe2
+{
+    margin-top: 20px;
+    width: 90%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: 10px;
+    
+}
+.equipe2
+{
+    margin-bottom: 80px;
+}
+.equipe img
+{
+    width: 70%;
+    height: 350px;
+    border-radius: 10px;
+    margin-top: 20px;
+    /* object-fit: cover; */
+}
+.equipe2 img
+{
+    width: 70%;
+    height: 500px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.equipe p, .equipe2 p
+{
+    text-align: center;
+    font-size: 20px;
+    width: 90%;
+    color: black;
+
+}
+.equipe h3, .equipe2 h3
+{
+    border-bottom: 8px solid rgb(238, 67, 96) ;
+    width: 70%;
+    text-align: center;
+    padding-bottom: 10px;
+    color: darkblue;
+}
+
+
+/* FOOTER */
+
+footer
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 20px;
+    height: 150px;
+    background-color: rgba(0, 9, 139, 0.962);
+    margin-top: 20px;
+    position: relative;
+    bottom: 0;
+}
+footer .ft
+{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(238, 67, 96);
+    padding: 10px;
+    border-radius: 5px;
+}
+footer p
+{
+    /* background-color:rgb(238, 67, 96); */
+    /* padding: 10px; */
+    color: #fff;
+    font-weight: bold;
+}
+p a
+{
+    text-decoration: none;
+    color: #fff;
+}
+p a:hover
+{
+    color:rgb(238, 67, 96);
+}
+footer a 
+{
+    text-decoration: none;
+}
+
+.ft a
+{
+    color: #fff; ;
+}
+.ft a:hover
+{
+    color: darkblue ;
+}
+
+
+/* FORMULAIRE DE CONTACT */
+.titre
+{
+
+    color: white;
+    width: 70%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: darkblue;
+}
+.pgcon
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+form
+{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    row-gap: 15px;
+    align-items: center;
+    justify-content: center;
+
+}
+form input
+{
+    height: 30px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    /* color: ; */
+}
+form textarea
+{
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+}
+form input[type='submit']
+{
+    background-color: rgb(238, 67, 96);
+    color: #fff;
+    font-size: 16px;
+    border-radius: 10px;
+    width: 60%;
+    
+}
+form input[type='submit']:hover
+{
+    scale: .95;
+    cursor: pointer;
+}
+
+
+::-webkit-scrollbar
+{
+    width: 10px;
+    background-color:none;
+    margin: 10px;
+}
+::-webkit-scrollbar-thumb
+{
+    width: 6px;
+    
+    border-radius: 7px;
+    background-color: rgb(238, 67, 96);;
+}
+::-webkit-scrollbar-track
+{
+    display: none;
+}
+/* PAGE DON */
+#pgdon
+{
+    background-color: skyblue;
+}
+.msgdon
+{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   flex-wrap: wrap;
+   margin-bottom: 30px;
+   gap: 20px; 
+   /* overflow: hidden; */
+}
+.galerie
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 370px;
+    height: 250px;
+    overflow: hidden;
+    padding: 0;
+}
+.galerie img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: transform 400ms;
+}
+.galerie img:hover
+{
+    transform: scale(1.4);
+}
+.msgdon p
+{
+    width: 80%;
+    text-align: center;
+    background-color: rgb(238, 67, 96);
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    font-family: Verdana, Tahoma, sans-serif
+}
+
+.paiment
+{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    height: 350px;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.paiment .paie-visa
+{
+    width: 400px;
+    height: 300px;
+    background-color: rgba(0, 9, 139, 0.962);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    color: #fff;
+
+}
+
+.paie-visa img
+{
+    height: 150px;
+    border-radius: 50%;
+
+}
+.paie-visa .compte
+{
+    border-bottom: 5px solid #fff;
+    width: 80%;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 10px;   
+}
+.paie-visa .numcompte
+{
+    margin: 0;
+    /* font-weight: bold; */
+    /* font-family: 'Century', serif; */
+    background-color: rgb(238, 67, 96);
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+.paiment .paie-mtn
+{
+    width: 30%;
+    height: 300px;
+    background-color: rgba(0, 9, 139, 0.962);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    color: #fff;
+
+}
+.paie-mtn img
+{
+    height: 150px;
+    border-radius: 10px;
+
+}
+
+
+.paie-mtn .compte
+{
+    border-bottom: 5px solid #fff;
+    width: 80%;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 10px;   
+}
+.paie-mtn .numcompte
+{
+    margin: 0;
+    /* font-weight: bold; */
+    /* font-family: 'Century', serif; */
+    background-color: rgb(238, 67, 96);
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+}
+#bda
+{
+    background-color: skyblue;
+}
+.article-parent
+{ 
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+.article-items
+{
+    width: 400px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    background-color:rgb(238, 67, 96);
+    border-radius: 8px;
+}
+.article-items h4
+{
+    text-align: center;
+    color:rgba(0, 9, 139, 0.962);
+    font-size: 15px;
+    background-color:pink;
+    border-radius: 5px;
+    padding: 5px;
+}
+.article-items p
+{
+    text-align: justify;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+}
+.article-items img
+{
+    border-radius: 5px;
+    height: 320px;
+    width: 80%;
+    /* object-fit: contain; */
+    border-radius: 10px;
+}
+p .lien
+{
+    color: darkblue;
+    font-weight: bold;
+}
+p .lien:hover
+{
+    color: rgb(238, 67, 96);
+}
+
+
+/* RESPONSIVE DISIGN */
+
+@media screen and (max-width : 840px)
+{
+    nav ul
+    {
+        padding: 15px;
+    }
+    nav a
+    {
+        font-size: 15px;
+    }
+    nav img
+    {
+        height: 80px;
+    }
+    main p
+    {
+        font-size: 20px;
+    }
+    h2
+    {
+        font-size: 15px;
+    }
+    .equipe2 img
+    {
+        width: 80%;
+        height: 300px;
+    }
+    .equipe img
+    {
+        height: 250px;
+    }
+    footer
+    {
+        justify-content: center;
+    }
+    footer .ft
+    {
+        width: 70%; 
+    }
+    .galerie
+    {
+        width: 300px;
+        height: 200px;
+    }
+    .msgdon p
+    {
+        font-size: 14px;
+    }
+    .paiment .paie-visa, .paiment .paie-mtn
+    {
+        width: 300px;
+
+    }
+    .paie-mtn img, .paie-visa img
+    {
+        height: 120px;
+    }
+    .paie-mtn .compte, .paie-visa .compte
+    {
+        font-size: 16px;
+    }
+    .paie-mtn .numcompte, .paie-visa .numcompte
+    {
+        font-size: 15px;
+    }
+    .article-items
+    {
+        width: 350px;
+    }
+    .article-items img
+    {
+        height: 300px;
+        object-fit: contain;
+        border-radius: 10px;
+    }
+    .article-items h4
+    {
+        font-size: 14px;
+    }
+    .article-items p
+    {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width : 720px){
+    nav ul
+    {
+        padding: 12px;
+    }
+    nav a
+    {
+        padding: 8px;
+        font-size: 10px;
+    }
+    nav img
+    {
+        height: 60px;
+    } 
+}
+@media screen and (max-width : 620px){
+    .paiment
+    {
+        margin-bottom: 300px;
+    }
+    .intro h3, .equipe h3, .equipe2 h3
+    {
+        font-size: 15px;
+    }
+    .intro ul, .intro p, .equipe p, .equipe2 p 
+    {
+        font-size: 14px;
+    }
+  
+}
+@media screen and (max-width : 580px)
+{
+    nav ul
+    {
+        padding: 12px;
+    }
+    nav a
+    {
+        padding: 8px;
+        font-size: 10px;
+    }
+    nav img
+    {
+        height: 60px;
+    }  
+    main p
+    {
+        font-size: 18px;
+        padding: 10px;
+    }
+    h2
+    {
+        padding: 10px;
+    }
+    .equipe2 img
+    {
+        height: 200px;
+        width: 90%;
+    }
+    .equipe img
+    {
+        height: 150px;
+        width: 90%;
+    }
+    footer .ft
+    {
+        width: 60%;
+        
+    }
+    .equipe, .equipe2
+    {
+        width: 80%;
+    }
+    section p
+    {
+        max-height: 400px;
+        overflow: scroll;
+    }
+    .intro p 
+    {
+        max-height: 400px;
+        overflow: scroll;
+    }
+    form
+    {
+        width: 70%;
+    }
+    form input
+    {
+        height: 25px;
+    }
+    form input[type='submit']
+    {
+        height: 30px;
+        font-size: 14px;
+    }
+    
+    textarea
+    {
+        height: 100px;
+    }
+    .titre
+    {
+        font-size: 16px;
+        padding: 10px;
+    }
+    .galerie
+    {
+        width: 70%;
+        height: 200px;
+    }
+    .msgdon p
+    {
+        font-size: 13px;
+    }
+    .paiment
+    {
+        margin-bottom: 0px;
+    }
+
+    .paiment .paie-visa, .paiment .paie-mtn
+    {
+        width: 250px;
+
+    }
+    .paie-mtn img, .paie-visa img
+    {
+        height: 100px;
+    }
+    .paie-mtn .compte, .paie-visa .compte
+    {
+        font-size: 15px;
+    }
+    .paie-mtn .numcompte, .paie-visa .numcompte
+    {
+        font-size: 14px;
+    }
+    .article-items
+    {
+        width: 300px;
+    }
+    .article-items img
+    {
+        height: 250px;
+        object-fit: contain;
+    }
+    .article-items h4
+    {
+        font-size: 13px;
+    }
+    .article-items p
+    {
+        font-size: 13px;
+    }
+    footer .ft 
+    {
+        padding: 6px;
+    }
+    .ft a svg
+    {
+        height: 22px;
+
+    }
+}
+@media screen and (max-width : 519px)
+{
+    .paiment
+    {
+        margin-bottom: 300px;
+    }   
+}
+
+@media screen and (max-width : 520px)
+{
+    header{
+        padding: 2px;
+    }
+    nav{
+        border-radius: 2px;
+    }
+    nav ul
+    {
+       width: 90%;
+       margin: 0;
+    }
+    nav img
+    {
+        margin: 5px;
+        height: 85px;
+    }
+    
+    nav .don
+    {
+        margin: 10px;
+        width: 50%;
+    }
+    nav a, nav .don
+    {
+        font-size: 16px;
+    }
+    footer p 
+    {
+        font-size: 13px;
+    }
+    /* footer
+    {
+        position: absolute;
+        bottom: 0;
+    } */
+    form
+    {
+        width: 70%;
+    }
+    form input, form textarea
+    {
+        font-size: 11px;
+    }
+    form input[type='submit']
+    {
+        width: 70%;
+    }
+    .titre
+    {
+        font-size: 14px;
+        padding: 8px; 
+    }
+    .paiment .paie-visa, .paiment .paie-mtn
+    {
+        width: 220px;
+        height: 250px;
+    }
+    .paie-mtn img, .paie-visa img
+    {
+        height: 90px;
+    }
+    .paie-mtn .compte, .paie-visa .compte
+    {
+        font-size: 14px;
+    }
+    .paie-mtn .numcompte, .paie-visa .numcompte
+    {
+        font-size: 13px;
+    }
+    .paiment
+    {
+        margin-bottom: 200px;
+    }
+    .article-items
+    {
+        width: 250px;
+    }
+    .article-items img
+    {
+        height: 200px;
+    }
+    .article-items h4
+    {
+        font-size: 11px;
+    }
+    .article-items p
+    {
+        font-size: 12px;
+    }
+    .ft a svg
+    {
+        height: 20px;
+    } 
+}
+@media screen and (max-width : 332px)
+{
+    footer p 
+    {
+        font-size: 11px;
+    }
+
+    nav a
+    {
+        font-size: 10px;
+    }  
+    footer .ft
+    {
+        width: 70%;  
+    }
+    .ft a svg
+    {
+        height: 18px;
+    }
+    section p
+    {
+        overflow: scroll;
+    }
+    .titre
+    {
+        font-size: 12px;
+        padding: 6px; 
+    }
+    .article-items
+    {
+        width: 200px;
+        padding: 8px;
+    }
+    .article-items img
+    {
+        height: 150px;
+    }
+    .article-items h4
+    {
+        font-size: 10px;
+    }
+    .article-items p
+    {
+        font-size: 11px;
+    } 
+    footer .ft
+    {
+        width: 80%;
+        padding: 8px;
+    }
+    .ft a svg
+    {
+        height: 18px;
+    }
+    form
+    {
+        width: 70%;
+    }
+    form input, form textarea
+    {
+        font-size: 10px;
+    }
+    form input[type='submit']
+    {
+        width: 70%;
+        font-size: 12px;
+    }
+
+}

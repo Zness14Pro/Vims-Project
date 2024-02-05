@@ -1,0 +1,130 @@
+#bodyad
+{
+    height: 100vh;
+}
+.connect
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.connect form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+    background-color: rgba(0, 9, 139, 0.962);
+    padding: 50px;
+    width: 40%;
+    border-radius: 10px;
+}
+form p
+{
+    background-color:rgb(238, 67, 96);
+    border-radius: 4px;
+    font-weight: bold;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width : 820px)
+{
+    .connect form
+    {
+        width: 50%;
+        padding: 40px;
+    }
+    form input[type='submit']
+    {
+       width: 50%;
+       font-size: 14px;    
+    }
+    form p
+    {
+        text-align: center;
+        font-size: 14px; 
+    }
+    form input
+    {
+        font-size: 13px;
+    }
+}
+@media screen and (max-width : 620px)
+{
+    .connect form
+    {
+        width: 55%;
+        padding: 30px;
+    }
+    footer
+    {
+        margin-top: 160px;
+    }
+}
+@media screen and (max-width : 580px)
+{
+    .connect form
+    {
+        width: 60%;
+        padding: 25px;
+    }
+    form p
+    {
+        text-align: center;
+        font-size: 13px;
+        padding: 5px; 
+    }
+    form input
+    {
+        font-size: 12px;
+    }
+    form input[type='submit']
+    {
+       width: 50%;
+       font-size: 13px;    
+    }
+}
+@media screen and (max-width : 320px)
+{
+    .connect form
+    {
+        width: 65%;
+        padding: 20px;
+    }
+    form p
+    {
+        text-align: center;
+        font-size: 12px;
+        padding: 5px; 
+    }
+    form input
+    {
+        font-size: 11px;
+    }
+    form input[type='submit']
+    {
+       width: 55%;
+       font-size: 12px;    
+    }
+}   
